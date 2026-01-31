@@ -19,8 +19,8 @@ spec:
             - containerPort: 9090
           volumeMounts:
             - mountPath: /linkding
-                name: linkding-data-pvc
+              name: linkding-data-pvc
       volumes:
         - name: linkding-data-pvc
-            emptyDir:
-              sizeLimit: 1Gi
+          emptyDir:
+            sizeLimit: 1Gi
