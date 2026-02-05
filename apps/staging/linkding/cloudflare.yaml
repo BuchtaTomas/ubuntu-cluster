@@ -44,7 +44,7 @@ spec:
           mountPath: /etc/cloudflared/creds
           readOnly: true
         - name: cert
-          mountPath: /etc/cloudflared/cert
+          mountPath: /etc/cloudflared
           readOnly: true
       volumes:
       - name: creds
