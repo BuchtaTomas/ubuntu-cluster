@@ -1,0 +1,5 @@
+# to ignore local files and do not push to GitHub
+age.agekey
+helmshow.yaml
+tls.crt
+tls.key
