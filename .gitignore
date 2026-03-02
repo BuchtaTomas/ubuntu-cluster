@@ -1,4 +1,5 @@
 # to ignore local files and do not push to GitHub
+/certs
 age.agekey
 helmshow.yaml
 tls.crt

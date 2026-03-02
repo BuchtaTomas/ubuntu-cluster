@@ -16,3 +16,7 @@ spec:
                   number: 9090
             path: /
             pathType: Prefix
+  tls:
+    - host:
+        -lds.nokokos.com
+      secretName: lds-tls-secret.yaml
