@@ -19,4 +19,4 @@ spec:
   tls:
     - host:
         -lds.nokokos.com
-      secretName: lds-tls-secret.yaml
+      secretName: lds-tls-secret
