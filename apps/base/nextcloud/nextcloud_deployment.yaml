@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nextcloud
-          image: nextcloud:30-apache
+          image: nextcloud:31-apache
           env:
             - name: MYSQL_HOST
               value: nextcloud-mariadb
