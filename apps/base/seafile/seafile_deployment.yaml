@@ -18,9 +18,11 @@ spec:
           env:
             - name: DB_HOST
               value: mariadb
+            - name: DB_PORT
+              value: "3306"
             - name: DB_USER
               value: seafile
-            - name: DB_PASSWORD
+            - name: DB_PASSWD
               valueFrom:
                 secretKeyRef:
                   name: seafile-secret
