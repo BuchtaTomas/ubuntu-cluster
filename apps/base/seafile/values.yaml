@@ -1,0 +1,26 @@
+seafile:
+  image:
+    repository: seafileltd/seafile-mc
+    tag: latest
+
+  persistence:
+    enabled: true
+    existingClaim: seafile-data
+
+  envFromSecret: seafile-secret
+
+  env:
+    - name: SEAFILE_SERVER_HOSTNAME
+      value: "seafile.nokokos.com"
+
+mariadb:
+  enabled: true
+  auth:
+    existingSecret: seafile-secret
+    username: "seafile"
+    database: "seafile"
+  primary:
+    persistence:
+      enabled: true
+      existingClaim: seafile-data
+
