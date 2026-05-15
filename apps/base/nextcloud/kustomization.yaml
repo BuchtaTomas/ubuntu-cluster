@@ -4,7 +4,9 @@ resources:
   - namespace.yaml
   - mariadb_deployment.yaml
   - mariadb_service.yaml
+  - mariadb_storage.yaml
   - nextcloud_deployment.yaml
   - nextcloud_service.yaml
+  - nextcloud_storage.yaml
 #  - storage.yaml
 #  - configmap.yaml
