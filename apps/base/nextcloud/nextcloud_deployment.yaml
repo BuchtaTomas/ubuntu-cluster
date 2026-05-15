@@ -27,6 +27,12 @@ spec:
                 secretKeyRef:
                   name: nextcloud-secret
                   key: DB_PASSWORD
+            - name: OVERWRITEHOST
+              value: "nextcloud.nokokos.com"
+            - name: OVERWRITEPROTOCOL
+              value: "https"
+            - name: TRUSTED_PROXIES
+              value: "0.0.0.0/0"
           ports:
             - containerPort: 80
           volumeMounts:
