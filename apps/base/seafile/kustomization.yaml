@@ -6,5 +6,5 @@ resources:
   - mariadb_deployment.yaml
   - mariadb_service.yaml
   - seafile_storage.yaml
-  - seafile_deplyment.yaml
+  - seafile_deployment.yaml
   - seafile_service.yaml
