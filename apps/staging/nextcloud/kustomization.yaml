@@ -5,3 +5,4 @@ resources:
   - ../../base/nextcloud
   - secret.yaml
   - cloudflare.yaml
+  - cloudflare-secret.yaml
