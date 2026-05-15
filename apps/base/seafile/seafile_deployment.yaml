@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: seafile
-          image: haiwen/seafile-server:latest
+          image: ghcr.io/haiwen/seafile-server:10.0.1
           env:
             - name: DB_HOST
               value: mariadb
